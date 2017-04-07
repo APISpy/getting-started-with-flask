@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_view():
-    return 'Welcome to our Library!'
+    return 'Getting Started with Flask!'
 
 
 @app.route('/template')
